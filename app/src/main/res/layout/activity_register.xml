@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgbuku"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-730dp"
+        android:paddingRight="90dp"
+        android:paddingLeft="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoedu" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="739dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/regijo" />
+
+        <TextView
+            android:id="@+id/textViewMasuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/daftar_teksreg"
+            android:textColor="@color/white"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="95dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/mulai_teksreg"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            app:layout_constraintTop_toBottomOf="@id/textViewMasuk" />
+
+        <EditText
+            android:id="@+id/usernamereg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/teksuser_reg"
+            android:padding="10dp"
+            android:textColorHint="@color/ijohint" />
+
+        <EditText
+            android:id="@+id/emailreg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/baseline_alternate_email_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/hint_email"
+            android:padding="10dp"
+            android:textColorHint="@color/ijohint" />
+
+        <EditText
+            android:id="@+id/passwordreg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="320dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawableEnd="@drawable/baseline_remove_red_eye_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/hint_pass"
+            android:padding="10dp"
+            android:textColorHint="@color/ijohint" />
+
+        <EditText
+            android:id="@+id/passcomfreg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawableEnd="@drawable/baseline_remove_red_eye_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/confpass_reg"
+            android:padding="10dp"
+            android:textColorHint="@color/ijohint" />
+
+        <EditText
+            android:id="@+id/institutreg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="480dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/institusi_vector"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/institusiteks_reg"
+            android:padding="10dp"
+            android:textColorHint="@color/ijohint" />
+
+        <EditText
+            android:id="@+id/nomorhapereg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="560dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:background="@drawable/custom_edittext"
+            android:drawableStart="@drawable/baseline_phone_24"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/nohape_reg"
+            android:padding="10dp"
+            android:textColorHint="@color/ijohint" />
+
+
+        <Button
+            android:id="@+id/sudahpunyakun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="620dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:background="?android:attr/selectableItemBackground"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/sudahakun_reg"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/daftarTombol"
+            style="@style/Widget.Material3.Button.IconButton.Outlined"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="@dimen/ukuranpadingLogReg"
+            android:layout_marginTop="660dp"
+            android:layout_marginRight="@dimen/ukuranpadingLogReg"
+            android:fontFamily="@font/poppins_bold"
+            android:layerType="hardware"
+            android:text="@string/daftarteks_reg"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="4dp" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

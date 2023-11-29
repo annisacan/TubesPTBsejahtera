@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Di res/values/dimens.xml -->
+    <dimen name="ukuranpadingLogReg">25sp</dimen>
+
+
+</resources>

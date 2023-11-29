@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "396094537206",
+    "project_id": "tubesptbsejahtera",
+    "storage_bucket": "tubesptbsejahtera.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396094537206:android:9371e99490c15b3eb79bd7",
+        "android_client_info": {
+          "package_name": "com.example.tubesptbsejahtera"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZCsoiiaJmTl_z7KQy9QgIha7LwSDe_LA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

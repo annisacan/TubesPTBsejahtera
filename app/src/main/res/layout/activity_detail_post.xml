@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailPostActivity"
+    android:background="@drawable/bgbuku">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/detailName"
+        android:layout_marginTop="14dp"
+        android:text="Judul Prestasi"
+        android:textSize="24sp"
+        android:textColor="@color/ijohint"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/cardImage"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="@dimen/_20dp"
+        android:elevation="20dp"
+        android:paddingStart="@dimen/_40dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:id="@+id/detailImage"
+            android:src="@drawable/sertif5"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Pelaksanaan:"
+        android:textColor="@color/ijohint"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:id="@+id/detailTime"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skala Kegiatan"
+        android:textColor="@color/ijohint"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nasional"
+        android:layout_marginStart="10dp"
+        android:textSize="16sp"
+        android:id="@+id/detailSkala"
+        android:fontFamily="@font/poppins_medium"/>
+
+</LinearLayout>

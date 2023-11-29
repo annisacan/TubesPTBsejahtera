@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="14dp"
+    android:layout_marginVertical="8dp"
+    android:elevation="30dp"
+    app:cardBackgroundColor="@color/ijohint"
+    app:cardCornerRadius="@dimen/_20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_8dp">
+
+        <ImageView
+            android:id="@+id/rc_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@color/white" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rc_title"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:text="@string/title_prestasi_rc"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="8dp"
+            android:layout_marginStart="@dimen/_8dp"
+            android:layout_toEndOf="@+id/rc_image"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
